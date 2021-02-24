@@ -32,7 +32,7 @@ public class ExcelReadWrite {
 			for (int i = 0; i < 8; i++) {
 				// GET DATA FROM THE EXCEL SHEET
 				testdata[i] = (sheet.getRow(1).getCell(i)).toString();
-				System.out.println(testdata[i]);
+			
 
 			}
 			
